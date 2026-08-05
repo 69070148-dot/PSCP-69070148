@@ -15,13 +15,13 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-30252996/Season
+3022/Temperature
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-576632
+582162
 ```
 
 OJ status:
@@ -33,13 +33,13 @@ Pass
 Independent time spent on this problem:
 
 ```text
-15 minutes
+30 minutes
 ```
 
 Choose one:
 
 ```text
-15 - 30 minutes
+30-60 minutes
 ```
 
 How to count this time:
@@ -64,7 +64,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-First i turn input in to int then use if elif to check the condition that question want then print the ans
+first i put input reciver then if it not celsius convert it in to celsius and covert it in to new unit and print in with .2f
 ```
 
 ---
@@ -84,9 +84,9 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```
-Step 1:have input reciver and turn it in to int
-Step 2:check condition if it match with needed
-Step 3:print the result
+Step 1:have input reciver and convert it to celsius if it not C
+Step 2:convert it into new unit that you want
+Step 3:print it with .2f
 ```
 
 ---
@@ -106,7 +106,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-have input reciver turn it into int check condition and print the result
+have input reciver turn it into celsius and convert it into newunit and print it
 ```
 
 ---
@@ -132,20 +132,21 @@ it easy to test
 Input:
 
 ```text
-1
-1
+37.6
+C
+K
 ```
 
 Expected output:
 
 ```text
-winter
+310.75
 ```
 
 Actual output:
 
 ```text
-winter
+310.75
 ```
 
 Result:
@@ -165,20 +166,21 @@ what to know if it fail
 Input:
 
 ```text
-3
-30
+371.99 
+F
+K
 ```
 
 Expected output:
 
 ```text
-spring
+462.03
 ```
 
 Actual output:
 
 ```text
-spring
+462.03
 ```
 
 Result:
@@ -198,20 +200,21 @@ easy to test
 Input:
 
 ```text
-12
-12
+1000000
+C
+F
 ```
 
 Expected output:
 
 ```text
-fall
+1800032.00
 ```
 
 Actual output:
 
 ```text
-fall
+1800032.00
 ```
 
 Result:
@@ -301,7 +304,7 @@ Write `Yes` for each statement.
 |---|---|
 | I wrote this submission in my own words. | Yes |
 | I understand my final code. | Yes |
-| I recorded the real OJ status. |Yes |
+| I recorded the real OJ status. | Yes |
 | I did not copy AI-generated text directly into this file. | Yes |
 | I did not copy code from another person. | Yes |
 | If I received human help, I disclosed it in this file. | Yes |
