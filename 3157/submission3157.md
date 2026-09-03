@@ -15,13 +15,13 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-3115/Arcade of Time: Store Check
+3157/เกมสะสมแต้ม
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-632213
+640729
 ```
 
 OJ status:
@@ -64,7 +64,11 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-first I made an array to keep track of when each store opens and closes. Then I used a loop to add 1 when a store opens and subtract 1 when it closes After that I used another loop to calculate the total number of stores open at each minute Finally I checked each given time in the array and printed the number of stores that were open at that time
+first Read the number of commands N and Set the initial score to 0.
+use loop in range n to check
+If the command is +, add 10 points.
+If the command is -, subtract 5 points.
+Print the final score
 ```
 
 ---
@@ -84,10 +88,10 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```
-Step 1:made an array to keep track of when each store opens and closes
-Step 2:used a loop to add 1 when a store opens and subtract 1 when it closes
-Step 3:used another loop to calculate the total number of stores open at each minute
-Step 4:checked each given time in the array and printed the number of stores that were open at that time
+Step 1:Read the number of commands N and Set the initial score to 0.
+Step 2:use loop in range n to check
+Step 3:If the command is +, add 10 points. If the command is -, subtract 5 points.
+Step 4:Print the final score
 ```
 
 ---
@@ -107,7 +111,11 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-first I made an array to keep track of when each store opens and closes. Then I used a loop to add 1 when a store opens and subtract 1 when it closes After that I used another loop to calculate the total number of stores open at each minute Finally I checked each given time in the array and printed the number of stores that were open at that time
+first Read the number of commands N and Set the initial score to 0.
+use loop in range n to check
+If the command is +, add 10 points.
+If the command is -, subtract 5 points.
+Print the final score
 ```
 
 ---
@@ -133,23 +141,24 @@ it easy to test
 Input:
 
 ```text
-3 5
-540 1020
-600 660
-1080 1200
-600 659 660 900 1300
+5
++
++
+-
++
++
 ```
 
 Expected output:
 
 ```text
-2 2 1 1 0
+35
 ```
 
 Actual output:
 
 ```text
-2 2 1 1 0
+35
 ```
 
 Result:
@@ -169,16 +178,16 @@ what to know if it fail
 Input:
 
 ```text
-2 3
-0 720
-500 1000
-100 700 800
+3
++
++
++
 ```
 
 Expected output:
 
 ```text
-1 2 1
+30
 ```
 
 Actual output:
@@ -204,22 +213,21 @@ easy to test
 Input:
 
 ```text
-2 3
-0 720
-500 1000
-1000 700 800
+2
++
+-
 ```
 
 Expected output:
 
 ```text
-0 2 1
+5
 ```
 
 Actual output:
 
 ```text
-0 2 1
+5
 ```
 
 Result:
