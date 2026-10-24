@@ -161,39 +161,11 @@ Red : Crewmate
 Cyan : Crewmate
 Green : Crewmate
 White : Crewmate
-
-Actual output:
-
-2 Impostor Remains
-***Alive***
-Blue : Impostor
-Lime : Impostor
-Orange : Crewmate
-Pink : Crewmate
-Red : Crewmate
-***Dead***
-Cyan : Crewmate
-Green : Crewmate
-White : Crewmate
 ```
 
 Actual output:
 
 ```text
-2 Impostor Remains
-***Alive***
-Blue : Impostor
-Lime : Impostor
-Orange : Crewmate
-Pink : Crewmate
-Red : Crewmate
-***Dead***
-Cyan : Crewmate
-Green : Crewmate
-White : Crewmate
-
-Actual output:
-
 2 Impostor Remains
 ***Alive***
 Blue : Impostor
